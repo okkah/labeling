@@ -25,7 +25,7 @@ center = np.delete(label[3], 0, 0)
 # ラベリング結果書き出し用に二値画像をカラー変換
 color_src = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
-# オブジェクト情報を利用してラベリング結果を画面に表示
+# オブジェクト情報を利用してラベリング結果を表示
 for i in range(n):
     # 各オブジェクトの外接矩形を赤枠で表示
     x0 = data[i][0]

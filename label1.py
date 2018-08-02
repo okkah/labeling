@@ -26,7 +26,7 @@ colors = []
 for i in range(1, n + 1):
     colors.append(np.array([random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)]))
 
-# ラベリング結果を画面に表示
+# ラベリング結果を表示
 # 各オブジェクトをランダム色でペイント
 for y in range(0, height):
     for x in range(0, width):
